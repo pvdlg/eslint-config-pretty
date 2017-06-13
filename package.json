@@ -1,0 +1,32 @@
+{
+  "name": "@metahub/eslint-config",
+  "description": "A set of shareable eslint configs",
+  "version": "1.0.0",
+  "author": "Pierre Vanduynslager",
+  "bugs": {
+    "url": "https://github.com/vanduynslagerp/eslint-config/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jasmine": "^2.2.0"
+  },
+  "homepage": "https://github.com/vanduynslagerp/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": ">=7.2.3",
+    "eslint": ">=4.0.0",
+    "eslint-plugin-import": ">=2.3.0",
+    "eslint-plugin-jasmine": ">=2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanduynslagerp/eslint-config.git"
+  }
+}
