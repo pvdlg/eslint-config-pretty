@@ -6,7 +6,8 @@ module.exports = {
     'sourceType': 'script',
     'ecmaFeatures': {
       'globalReturn': true,
-      'impliedStrict': true
+      'impliedStrict': true,
+      'modules': true
    }
  },
   'env': {'node': true},
