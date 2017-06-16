@@ -15,6 +15,7 @@ module.exports = {
     'jasmine/no-assign-spyon': 2,
     'jasmine/no-unsafe-spy': 2,
     'jasmine/no-global-setup': 2,
-    'jasmine/no-expect-in-setup-teardown': 2
+    'jasmine/no-expect-in-setup-teardown': 2,
+    'jasmine/new-line-between-declarations': 2
   }
 };
