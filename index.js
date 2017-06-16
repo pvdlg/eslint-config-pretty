@@ -2,7 +2,6 @@ module.exports = {
   'root': true,
   'parser': 'babel-eslint',
   'parserOptions': {
-    'ecmaVersion': 5,
     'sourceType': 'script',
     'ecmaFeatures': {
       'globalReturn': true,
@@ -10,6 +9,7 @@ module.exports = {
       'modules': true
    }
  },
+  'plugins': ['babel', 'json'],
   'env': {'node': true},
   'rules': {
     // Possible Errors
@@ -78,7 +78,7 @@ module.exports = {
     'no-implicit-coercion': 2,
     'no-implicit-globals': 2,
     'no-implied-eval': 2,
-    'no-invalid-this': 0,
+    'babel/no-invalid-this': 2,
     'no-iterator': 2,
     'no-labels': 2,
     'no-lone-blocks': 2,
@@ -179,7 +179,7 @@ module.exports = {
     'max-statements': 0,
     'max-statements-per-line': 2,
     'multiline-ternary': 0,
-    'new-cap': 0,
+    'babel/new-cap': 0,
     'new-parens': 2,
     'newline-per-chained-call': [2, {'ignoreChainWithDepth': 4}],
     'no-array-constructor': 2,
@@ -204,7 +204,7 @@ module.exports = {
     'no-whitespace-before-property': 2,
     'nonblock-statement-body-position': [2, 'beside'],
     'object-curly-newline': [2, {'minProperties': 2, 'multiline': true}],
-    'object-curly-spacing': 2,
+    'babel/object-curly-spacing': 2,
     'object-property-newline': 2,
     'one-var': [2, 'never'],
     'one-var-declaration-per-line': 2,
@@ -239,7 +239,7 @@ module.exports = {
         'ClassDeclaration': true
       }
     }],
-    'semi': [2, 'always'],
+    'babel/semi': [2, 'always'],
     'semi-spacing': 2,
     'semi-style': 2,
     'sort-keys': 0,

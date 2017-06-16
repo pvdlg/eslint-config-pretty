@@ -1,8 +1,5 @@
 module.exports = {
-  'extends': ['@metahub', '@metahub/eslint-config/import-config'],
-  'parserOptions': {
-    'sourceType': 'module'
-  },
+  'extends': ['@metahub/eslint-config/import-config'],
   'env': {
     'node': true
  },
@@ -18,6 +15,6 @@ module.exports = {
    'no-process-env': 0,
    'no-process-exit': 0,
    'no-restricted-modules': 0,
-   'no-sync': 0
+   'no-sync': 2
   }
 };

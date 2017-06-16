@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['@metahub', '@metahub/eslint-config/import-config'],
+  'extends': ['@metahub/eslint-config/import-config'],
   'parserOptions': {
     'ecmaVersion': 8,
     'sourceType': 'module'

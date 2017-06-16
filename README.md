@@ -25,7 +25,10 @@ Once the `@metahub/eslint-config` package is installed, you can use it by specif
 |Name|Description|Extends|
 |:---|:-----|:----------|
 |`@metahub`|Base/generic configuration||
-|`@metahub/eslint-config/jasmine-config`|Rules for [Jasmine](https://jasmine.github.io/)|`@metahub`|
+|`@metahub/eslint-config/jasmine-config`|Rules specific to [Jasmine](https://jasmine.github.io/)|`@metahub`|
 |`@metahub/eslint-config/import-config`|Rules related to ECMAScript 2015 and Node imports|`@metahub`|
-|`@metahub/eslint-config/es6-config`|Rules specific to ECMAScript 2015|`@metahub`, `import-config`|
 |`@metahub/eslint-config/node-config`|Rules specific to Node JS|`@metahub`, `import-config`|
+|`@metahub/eslint-config/es6-config`|Rules specific to ECMAScript 2015|`@metahub`, `import-config`|
+|`@metahub/eslint-config/ava-config`|Rules specific to [AVA](https://github.com/avajs/ava)|`@metahub`, `es6-config`|
+|`@metahub/eslint-config/promise-config`|Rules specific to Promises|`@metahub`, `es6-config`|
+|`@metahub/eslint-config/async-config`|Rules specific to async/await|`@metahub`, `promise-config`|
