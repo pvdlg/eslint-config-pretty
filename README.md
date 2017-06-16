@@ -1,6 +1,15 @@
 # eslint-config
 
-> Set of ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html).
+Set of ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html).
+
+[![Travis](https://img.shields.io/travis/vanduynslagerp/eslint-config.svg)](https://travis-ci.org/vanduynslagerp/eslint-config)
+[![Code Climate](https://img.shields.io/codeclimate/github/vanduynslagerp/eslint-config.svg)](https://codeclimate.com/github/vanduynslagerp/eslint-config)
+[![Code Climate](https://img.shields.io/codeclimate/issues/github/vanduynslagerp/eslint-config.svg)](https://codeclimate.com/github/vanduynslagerp/eslint-config/issues)
+[![Codecov](https://img.shields.io/codecov/c/github/vanduynslagerp/eslint-config.svg)](https://codecov.io/gh/vanduynslagerp/eslint-config)
+
+[![npm](https://img.shields.io/npm/v/@metahub/eslint-config.svg)](https://www.npmjs.com/package/@metahub/eslint-config)
+[![npm](https://img.shields.io/npm/dt/@metahub/eslint-config.svg)](https://www.npmjs.com/package/@metahub/eslint-config)
+[![license](https://img.shields.io/github/license/vanduynslagerp/eslint-config.svg)](https://github.com/vanduynslagerp/eslint-config/blob/master/LICENSE)
 
 ## Installation
 

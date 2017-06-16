@@ -1,9 +1,7 @@
 module.exports = {
-  'extends': ['@metahub'],
+  'extends': ['./index.js'],
   'plugins': ['jasmine'],
-  'env': {
-    'jasmine': true
-  },
+  'env': {'jasmine': true},
   'rules': {
     // Jasmine
     'jasmine/named-spy': 2,

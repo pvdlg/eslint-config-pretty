@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['@metahub/eslint-config/es6-config'],
+  'extends': ['./es6-config.js'],
   'plugins': ['ava'],
   'rules': {
     'ava/assertion-arguments': 2,
@@ -27,4 +27,4 @@ module.exports = {
     'ava/use-test': 2,
     'ava/use-true-false': 2
   }
-}
+};

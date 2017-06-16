@@ -1,0 +1,10 @@
+engines:
+  eslint:
+    enabled: true
+    config:
+      config: .eslintrc.js
+ratings:
+   paths:
+   - '*-config.js'
+   - index.js
+   - package.json

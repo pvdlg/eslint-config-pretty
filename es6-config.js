@@ -1,12 +1,10 @@
 module.exports = {
-  'extends': ['@metahub/eslint-config/import-config'],
+  'extends': ['./import-config.js'],
   'parserOptions': {
     'ecmaVersion': 8,
     'sourceType': 'module'
   },
-  'env': {
-    'es6': true
- },
+  'env': {'es6': true},
   'rules': {
     // ECMAScript 6
     'arrow-body-style': 2,
