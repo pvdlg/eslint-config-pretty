@@ -1,5 +1,7 @@
 # eslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vanduynslagerp/eslint-config.svg)](https://greenkeeper.io/)
+
 Set of ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html).
 
 [![Travis](https://img.shields.io/travis/vanduynslagerp/eslint-config.svg)](https://travis-ci.org/vanduynslagerp/eslint-config)
