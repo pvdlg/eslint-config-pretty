@@ -9,6 +9,7 @@ Set of ESLint [shareable config](http://eslint.org/docs/developer-guide/shareabl
 
 [![npm](https://img.shields.io/npm/v/@metahub/eslint-config.svg)](https://www.npmjs.com/package/@metahub/eslint-config)
 [![npm](https://img.shields.io/npm/dt/@metahub/eslint-config.svg)](https://www.npmjs.com/package/@metahub/eslint-config)
+[![Greenkeeper badge](https://badges.greenkeeper.io/vanduynslagerp/eslint-config.svg)](https://greenkeeper.io/)
 [![license](https://img.shields.io/github/license/vanduynslagerp/eslint-config.svg)](https://github.com/vanduynslagerp/eslint-config/blob/master/LICENSE)
 
 ## Installation
