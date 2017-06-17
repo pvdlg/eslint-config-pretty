@@ -1,9 +1,7 @@
 module.exports = {
-  'extends': ['@metahub'],
+  'extends': ['./index.js'],
   'plugins': ['jasmine'],
-  'env': {
-    'jasmine': true
-  },
+  'env': {'jasmine': true},
   'rules': {
     // Jasmine
     'jasmine/named-spy': 2,
@@ -17,6 +15,7 @@ module.exports = {
     'jasmine/no-assign-spyon': 2,
     'jasmine/no-unsafe-spy': 2,
     'jasmine/no-global-setup': 2,
-    'jasmine/no-expect-in-setup-teardown': 2
+    'jasmine/no-expect-in-setup-teardown': 2,
+    'jasmine/new-line-between-declarations': 2
   }
 };
