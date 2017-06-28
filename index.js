@@ -87,7 +87,12 @@ module.exports = {
     'no-magic-numbers': [2,
       {
         'ignore': [
-          0, 1, 2, -1, 0.99, 1000
+          0,
+          1,
+          2,
+          -1,
+          0.99,
+          1000
         ],
         'ignoreArrayIndexes': true,
         'enforceConst': true
@@ -164,7 +169,11 @@ module.exports = {
     // Stylistic
     'array-bracket-newline': [2, {'minItems': 3}],
     'array-bracket-spacing': 2,
-    'array-element-newline': [2, {'multiline': true}],
+    'array-element-newline': [2,
+      {
+        'multiline': true,
+        'minItems': 4
+      }],
     'block-spacing': 2,
     'brace-style': 2,
     'camelcase': [2, {'properties': 'never'}],
@@ -185,7 +194,13 @@ module.exports = {
     'id-length': [2,
       {
         'exceptions': [
-          'i', 'j', 'k', 't', 'x', 'y', 'z'
+          'i',
+          'j',
+          'k',
+          't',
+          'x',
+          'y',
+          'z'
         ]
       }],
     'id-match': [2, '[a-zA-Z_][a-zA-Z0-9_]*$'],
@@ -197,7 +212,17 @@ module.exports = {
     'linebreak-style': 2,
     'lines-around-comment': 0,
     'max-depth': 2,
-    'max-len': [2, 120],
+    'max-len': [2,
+      {
+        'code': 120,
+        'tabWidth': 4,
+        'ignoreComments': true,
+        'ignoreTrailingComments': true,
+        'ignoreUrls': true,
+        'ignoreStrings': false,
+        'ignoreTemplateLiterals': true,
+        'ignoreRegExpLiterals': true
+      }],
     'max-lines': 0,
     'max-nested-callbacks': [2, 5],
     'max-params': [2, 7],

@@ -30,6 +30,7 @@ Once the `@metahub/eslint-config` package is installed, you can use it by specif
   }
 }
 ```
+
 ## Config files
 
 |Name|Description|Extends|
