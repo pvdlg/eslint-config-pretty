@@ -5,7 +5,7 @@ module.exports = {
   'rules': {
     'jasmine/missing-expect': 2,
     'jasmine/named-spy': 2,
-    'jasmine/new-line-before-expect': 2,
+    'jasmine/new-line-before-expect': 0,
     'jasmine/new-line-between-declarations': 2,
     'jasmine/no-assign-spyon': 2,
     'jasmine/no-describe-variables': 2,
