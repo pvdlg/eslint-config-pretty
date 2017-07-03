@@ -1,7 +1,7 @@
 module.exports = {
-  'extends': ['./es6-config.js'],
-  'plugins': ['ava'],
-  'rules': {
+  extends: ['./es6-config.js'],
+  plugins: ['ava'],
+  rules: {
     'ava/assertion-arguments': 2,
     'ava/max-asserts': 0,
     'ava/no-async-fn-without-await': 2,
@@ -25,6 +25,6 @@ module.exports = {
     'ava/use-t-well': 2,
     'ava/use-t': 2,
     'ava/use-test': 2,
-    'ava/use-true-false': 2
-  }
+    'ava/use-true-false': 2,
+  },
 };

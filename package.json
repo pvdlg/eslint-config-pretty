@@ -1,7 +1,7 @@
 {
   "name": "@metahub/eslint-config",
   "description": "A set of shareable eslint configs",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "author": "Pierre Vanduynslager",
   "bugs": {
     "url": "https://github.com/vanduynslagerp/eslint-config/issues"

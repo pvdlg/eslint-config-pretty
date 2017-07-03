@@ -1,7 +1,7 @@
 module.exports = {
-  'extends': ['./import-config.js'],
-  'env': {'node': true},
-  'rules': {
+  extends: ['./import-config.js'],
+  env: {node: true},
+  rules: {
     // Node.js and CommonJS
     'callback-return': [2, ['done', 'callback']],
     'global-require': 2,
@@ -13,6 +13,6 @@ module.exports = {
     'no-process-env': 0,
     'no-process-exit': 0,
     'no-restricted-modules': 0,
-    'no-sync': 2
-  }
+    'no-sync': 2,
+  },
 };
