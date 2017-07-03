@@ -1,8 +1,8 @@
 module.exports = {
-  'extends': ['./index.js'],
-  'plugins': ['jasmine'],
-  'env': {'jasmine': true},
-  'rules': {
+  extends: ['./index.js'],
+  plugins: ['jasmine'],
+  env: {jasmine: true},
+  rules: {
     'jasmine/missing-expect': 2,
     'jasmine/named-spy': 2,
     'jasmine/new-line-before-expect': 0,
@@ -17,6 +17,6 @@ module.exports = {
     'jasmine/no-suite-callback-args': 2,
     'jasmine/no-suite-dupes': [2, 'branch'],
     'jasmine/no-unsafe-spy': 2,
-    'jasmine/valid-expect': 2
-  }
+    'jasmine/valid-expect': 2,
+  },
 };

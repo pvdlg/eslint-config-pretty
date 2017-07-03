@@ -1,14 +1,10 @@
 module.exports = {
-  'extends': ['./index.js'],
-  'parserOptions': {'sourceType': 'module'},
-  'plugins': ['import'],
-  'rules': {
+  extends: ['./index.js'],
+  parserOptions: {sourceType: 'module'},
+  plugins: ['import'],
+  rules: {
     // Imports
-    'import/no-unresolved': [2,
-      {
-        'commonjs': true,
-        'amd': true
-      }],
+    'import/no-unresolved': [2, {commonjs: true, amd: true}],
     'import/named': 2,
     'import/default': 2,
     'import/namespace': 2,
@@ -37,6 +33,6 @@ module.exports = {
     'import/max-dependencies': 0,
     'import/no-unassigned-import': 0,
     'import/no-named-default': 2,
-    'import/no-anonymous-default-export': 2
-  }
+    'import/no-anonymous-default-export': 2,
+  },
 };

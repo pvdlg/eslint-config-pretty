@@ -1,11 +1,8 @@
 module.exports = {
-  'extends': ['./import-config.js'],
-  'parserOptions': {
-    'ecmaVersion': 8,
-    'sourceType': 'module'
-  },
-  'env': {'es6': true},
-  'rules': {
+  extends: ['./import-config.js'],
+  parserOptions: {ecmaVersion: 8, sourceType: 'module'},
+  env: {es6: true},
+  rules: {
     // ECMAScript 6
     'arrow-body-style': 2,
     'arrow-parens': 2,
@@ -37,6 +34,6 @@ module.exports = {
     'sort-imports': 0,
     'symbol-description': 2,
     'template-curly-spacing': 2,
-    'yield-star-spacing': 2
-  }
+    'yield-star-spacing': 2,
+  },
 };
