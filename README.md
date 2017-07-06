@@ -24,9 +24,13 @@ Once the `@metahub/eslint-config` package is installed, you can use it by specif
 
 ```js
 {
-  'extends': ['@metahub/eslint-config/es6-config', '@metahub/eslint-config/node-config'],
-  'rules': {
-    // Additional, per-project rules...
+  extends: [
+    '@metahub/eslint-config/es6-config',
+    '@metahub/eslint-config/node-config',
+    '@metahub/eslint-config/prettier-config',
+  ],
+  rules: {
+    // Additional, project specific rules...
   }
 }
 ```
@@ -43,3 +47,4 @@ Once the `@metahub/eslint-config` package is installed, you can use it by specif
 |`@metahub/eslint-config/ava-config`|Rules specific to [AVA](https://github.com/avajs/ava)|`@metahub`, `es6-config`|
 |`@metahub/eslint-config/promise-config`|Rules specific to Promises|`@metahub`, `es6-config`|
 |`@metahub/eslint-config/async-config`|Rules specific to async/await|`@metahub`, `promise-config`|
+|`@metahub/eslint-config/prettier-config`|To be added last in the `extends` array when using [prettier](https://github.com/prettier/prettier). Adds [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) and [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)||
