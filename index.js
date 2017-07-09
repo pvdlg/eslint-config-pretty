@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     // Possible Errors
     'for-direction': 2,
+    'getter-return': [2, {allowImplicit: true}],
     'no-await-in-loop': 2,
     'no-compare-neg-zero': 2,
     'no-cond-assign': 2,

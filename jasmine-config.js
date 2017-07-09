@@ -18,5 +18,6 @@ module.exports = {
     'jasmine/no-suite-dupes': [2, 'branch'],
     'jasmine/no-unsafe-spy': 2,
     'jasmine/valid-expect': 2,
+    'jasmine/prefer-jasmine-matcher': 2,
   },
 };
