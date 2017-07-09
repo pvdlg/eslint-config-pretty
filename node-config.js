@@ -13,6 +13,6 @@ module.exports = {
     'no-process-env': 0,
     'no-process-exit': 0,
     'no-restricted-modules': 0,
-    'no-sync': 2,
+    'no-sync': [2, {allowAtRootLevel: true}],
   },
 };
