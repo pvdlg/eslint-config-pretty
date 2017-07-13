@@ -14,8 +14,16 @@ Set of ESLint [shareable config](http://eslint.org/docs/developer-guide/shareabl
 
 ## Installation
 
+All the dependencies have to be installed explicitly (see [`eslint/eslint#3458`](https://github.com/eslint/eslint/issues/3458)).
+```bash
+$ npm install @metahub/eslint-config eslint-config-prettier eslint-plugin-ava eslint-plugin-babel eslint-plugin-import eslint-plugin-jasmine eslint-plugin-json eslint-plugin-prettier eslint-plugin-promise prettier eslint --save-dev
 ```
-$ npm install --save-dev eslint @metahub/eslint-config
+
+Alternatively you can use [install-peerdeps](https://github.com/nathanhleung/install-peerdeps):
+```bash
+$ npm install install-peerdeps --global
+$ npm install @metahub/eslint-config --save-dev
+$ install-peerdeps @metahub/eslint-config --dev
 ```
 
 ## Usage
