@@ -81,14 +81,7 @@ module.exports = {
     'no-labels': 2,
     'no-lone-blocks': 2,
     'no-loop-func': 2,
-    'no-magic-numbers': [
-      2,
-      {
-        ignore: [0, 1, 2, -1, 0.99, 1000],
-        ignoreArrayIndexes: true,
-        enforceConst: true,
-      },
-    ],
+    'no-magic-numbers': [2, {ignore: [0, 1, 2, -1, 0.99, 1000], ignoreArrayIndexes: true, enforceConst: true}],
     'no-multi-spaces': 2,
     'no-multi-str': 2,
     'no-new': 2,
@@ -270,16 +263,7 @@ module.exports = {
     ],
     'quote-props': [2, 'consistent-as-needed'],
     quotes: [2, 'single'],
-    'require-jsdoc': [
-      1,
-      {
-        require: {
-          FunctionDeclaration: true,
-          MethodDefinition: true,
-          ClassDeclaration: true,
-        },
-      },
-    ],
+    'require-jsdoc': [1, {require: {FunctionDeclaration: true, MethodDefinition: true, ClassDeclaration: true}}],
     'babel/semi': [2, 'always'],
     semi: 0,
     'semi-spacing': 2,
