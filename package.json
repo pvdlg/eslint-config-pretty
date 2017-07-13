@@ -20,7 +20,7 @@
     "prettier": "^1.5.2"
   },
   "devDependencies": {
-    "ava": "^0.20.0",
+    "ava": "^0.21.0",
     "codecov": "^2.2.0",
     "eslint-find-rules": "^3.1.1",
     "lodash": "^4.17.4",
