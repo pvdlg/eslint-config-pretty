@@ -5,10 +5,10 @@ module.exports = {
     sourceType: 'script',
     ecmaFeatures: {globalReturn: true, impliedStrict: true, modules: true},
   },
-  plugins: ['babel', 'json'],
+  plugins: ['babel', 'json', 'eslint-comments'],
   env: {node: true},
   rules: {
-    // Possible Errors
+    // ESLint - Possible Errors
     'for-direction': 2,
     'getter-return': [2, {allowImplicit: true}],
     'no-await-in-loop': 2,
@@ -44,7 +44,7 @@ module.exports = {
     'valid-jsdoc': [2, {requireReturn: false}],
     'valid-typeof': 2,
 
-    // Best Practices
+    // ESLint - Best Practices
     'accessor-pairs': 2,
     'array-callback-return': 2,
     'block-scoped-var': 2,
@@ -117,10 +117,10 @@ module.exports = {
     'wrap-iife': 2,
     yoda: 2,
 
-    // Strict mode
+    // ESLint - Strict mode
     strict: 2,
 
-    // Variables
+    // ESLint - Variables
     'init-declarations': 0,
     'no-catch-shadow': 2,
     'no-delete-var': 2,
@@ -134,7 +134,7 @@ module.exports = {
     'no-unused-vars': 2,
     'no-use-before-define': 0,
 
-    // Node.js and CommonJS
+    // ESLint - Node.js and CommonJS
     'callback-return': 0,
     'global-require': 0,
     'handle-callback-err': 0,
@@ -147,7 +147,7 @@ module.exports = {
     'no-restricted-modules': 0,
     'no-sync': 0,
 
-    // Stylistic
+    // ESLint - Stylistic
     'array-bracket-newline': 0,
     'array-bracket-spacing': 2,
     'array-element-newline': 0,
@@ -281,7 +281,7 @@ module.exports = {
     'unicode-bom': 2,
     'wrap-regex': 2,
 
-    // ECMAScript 6
+    // ESLint - ECMAScript 6
     'arrow-body-style': 0,
     'arrow-parens': 0,
     'arrow-spacing': 0,
@@ -313,5 +313,13 @@ module.exports = {
     'symbol-description': 0,
     'template-curly-spacing': 0,
     'yield-star-spacing': 0,
+
+    // ESLint comments plugin
+    'eslint-comments/disable-enable-pair': 2,
+    'eslint-comments/no-duplicate-disable': 2,
+    'eslint-comments/no-unlimited-disable': 2,
+    'eslint-comments/no-unused-disable': 2,
+    'eslint-comments/no-unused-enable': 2,
+    'eslint-comments/no-use': 0,
   },
 };

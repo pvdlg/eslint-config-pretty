@@ -3,7 +3,7 @@ module.exports = {
   parserOptions: {ecmaVersion: 8, sourceType: 'module'},
   env: {es6: true},
   rules: {
-    // ECMAScript 6
+    // ESLint - ECMAScript 6
     'arrow-body-style': 2,
     'arrow-parens': 2,
     'arrow-spacing': 2,
