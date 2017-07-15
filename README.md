@@ -16,7 +16,7 @@ Set of ESLint [shareable config](http://eslint.org/docs/developer-guide/shareabl
 
 All the dependencies have to be installed explicitly (see [`eslint/eslint#3458`](https://github.com/eslint/eslint/issues/3458)).
 ```bash
-$ npm install @metahub/eslint-config eslint-config-prettier eslint-plugin-ava eslint-plugin-babel eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jasmine eslint-plugin-json eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise prettier eslint --save-dev
+$ npm install @metahub/eslint-config eslint-config-prettier eslint-plugin-ava eslint-plugin-babel eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jasmine eslint-plugin-json eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sort-class-members prettier eslint --save-dev
 ```
 
 Alternatively you can use [install-peerdeps](https://github.com/nathanhleung/install-peerdeps):

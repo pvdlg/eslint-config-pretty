@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['./import-config.js'],
+  plugins: ['sort-class-members'],
   parserOptions: {ecmaVersion: 8, sourceType: 'module'},
   env: {es6: true},
   rules: {
@@ -35,5 +36,22 @@ module.exports = {
     'symbol-description': 2,
     'template-curly-spacing': 2,
     'yield-star-spacing': 2,
+
+    // Sort class members plugin
+    'sort-class-members/sort-class-members': [
+      2,
+      {
+        order: [
+          '[properties]',
+          '[conventional-private-properties]',
+          'constructor',
+          '[methods]',
+          '[conventional-private-methods]',
+          '[static-properties]',
+          '[static-methods]',
+        ],
+        accessorPairPositioning: 'getThenSet',
+      },
+    ],
   },
 };

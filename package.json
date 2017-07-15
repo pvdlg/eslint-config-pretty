@@ -19,6 +19,7 @@
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-sort-class-members": "^1.1.1",
     "prettier": "^1.5.2"
   },
   "devDependencies": {
@@ -30,7 +31,10 @@
     "rimraf": "^2.6.1"
   },
   "homepage": "https://github.com/vanduynslagerp/eslint-config#readme",
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
@@ -46,6 +50,7 @@
     "eslint-plugin-node": ">=5.1.0",
     "eslint-plugin-prettier": ">=2.1.2",
     "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-sort-class-members": ">=1.1.1",
     "prettier": ">=1.5.2"
   },
   "repository": {
@@ -61,6 +66,8 @@
     "prepublishOnly": "npm run test"
   },
   "nyc": {
-    "include": ["{*-config,index}.js"]
+    "include": [
+      "{*-config,index}.js"
+    ]
   }
 }
