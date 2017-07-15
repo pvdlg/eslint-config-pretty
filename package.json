@@ -1,7 +1,7 @@
 {
   "name": "@metahub/eslint-config",
   "description": "A set of shareable eslint configs",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Pierre Vanduynslager",
   "bugs": {
     "url": "https://github.com/vanduynslagerp/eslint-config/issues"
@@ -19,6 +19,7 @@
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-sort-class-members": "^1.1.1",
     "prettier": "^1.5.2"
   },
   "devDependencies": {
@@ -46,6 +47,7 @@
     "eslint-plugin-node": ">=5.1.0",
     "eslint-plugin-prettier": ">=2.1.2",
     "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-sort-class-members": ">=1.1.1",
     "prettier": ">=1.5.2"
   },
   "repository": {
