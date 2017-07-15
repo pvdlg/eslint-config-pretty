@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['jasmine'],
   env: {jasmine: true},
   rules: {
+    // Jasmine plugin
     'jasmine/missing-expect': 2,
     'jasmine/named-spy': 2,
     'jasmine/new-line-before-expect': 0,

@@ -2,6 +2,7 @@ module.exports = {
   extends: ['./es6-config.js'],
   plugins: ['promise'],
   rules: {
+    // Promise plugin
     'promise/catch-or-return': 2,
     'promise/no-return-wrap': 2,
     'promise/param-names': 2,

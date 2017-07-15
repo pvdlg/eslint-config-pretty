@@ -2,6 +2,7 @@ module.exports = {
   extends: ['./es6-config.js'],
   plugins: ['ava'],
   rules: {
+    // Ava plugin
     'ava/assertion-arguments': 2,
     'ava/max-asserts': 0,
     'ava/no-async-fn-without-await': 2,
