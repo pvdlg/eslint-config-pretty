@@ -20,7 +20,7 @@
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-sort-class-members": "^1.1.1",
-    "prettier": "^1.5.2"
+    "prettier": "^1.5.3"
   },
   "devDependencies": {
     "ava": "^0.21.0",
@@ -48,7 +48,7 @@
     "eslint-plugin-prettier": ">=2.1.2",
     "eslint-plugin-promise": ">=3.5.0",
     "eslint-plugin-sort-class-members": ">=1.1.1",
-    "prettier": ">=1.5.2"
+    "prettier": ">=1.5.3"
   },
   "repository": {
     "type": "git",
