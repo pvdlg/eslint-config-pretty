@@ -20,5 +20,6 @@ module.exports = {
     'jasmine/no-unsafe-spy': 2,
     'jasmine/valid-expect': 2,
     'jasmine/prefer-jasmine-matcher': 2,
+    'jasmine/prefer-toHaveBeenCalledWith': 2,
   },
 };
