@@ -5,7 +5,7 @@ module.exports = {
     sourceType: 'script',
     ecmaFeatures: {globalReturn: true, impliedStrict: true, modules: true},
   },
-  plugins: ['babel', 'json', 'eslint-comments'],
+  plugins: ['babel', 'json', 'eslint-comments', 'unicorn'],
   env: {node: true},
   rules: {
     // ESLint - Possible Errors
@@ -313,6 +313,22 @@ module.exports = {
     'symbol-description': 0,
     'template-curly-spacing': 0,
     'yield-star-spacing': 0,
+
+    // ESLint Unicorn plugin
+    'unicorn/catch-error-name': [2, {name: 'err'}],
+    'unicorn/explicit-length-check': 2,
+    'unicorn/filename-case': [2, {case: 'kebabCase'}],
+    'unicorn/no-abusive-eslint-disable': 2,
+    'unicorn/no-process-exit': 2,
+    'unicorn/throw-new-error': 2,
+    'unicorn/number-literal-case': 2,
+    'unicorn/escape-case': 2,
+    'unicorn/no-array-instanceof': 2,
+    'unicorn/no-new-buffer': 2,
+    'unicorn/no-hex-escape': 2,
+    'unicorn/custom-error-definition': 2,
+    'unicorn/prefer-starts-ends-with': 2,
+    'unicorn/prefer-type-error': 2,
 
     // ESLint comments plugin
     'eslint-comments/disable-enable-pair': 2,
