@@ -32,7 +32,10 @@
     "rimraf": "^2.6.1"
   },
   "homepage": "https://github.com/vanduynslagerp/eslint-config#readme",
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
@@ -65,6 +68,8 @@
     "prepublishOnly": "npm run test"
   },
   "nyc": {
-    "include": ["{*-config,index}.js"]
+    "include": [
+      "{*-config,index}.js"
+    ]
   }
 }
