@@ -24,7 +24,7 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-sort-class-members": "^1.1.1",
+    "eslint-plugin-sort-class-members": "^1.2.0",
     "eslint-plugin-unicorn": "^2.1.2",
     "prettier": "^1.5.3"
   },
@@ -68,7 +68,7 @@
     "eslint-plugin-node": ">=5.1.1",
     "eslint-plugin-prettier": ">=2.2.0",
     "eslint-plugin-promise": ">=3.5.0",
-    "eslint-plugin-sort-class-members": ">=1.1.1",
+    "eslint-plugin-sort-class-members": ">=1.2.0",
     "eslint-plugin-unicorn": ">=2.1.2",
     "prettier": ">=1.5.3"
   },
