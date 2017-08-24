@@ -95,7 +95,7 @@
     "commitmsg": "commitlint -e",
     "lint": "eslint *-config.js index.js package.json test",
     "precommit": "npm run lint",
-    "prepublishOnly": "npm run test",
+    "prepush": "ava -v",
     "pretest": "npm run lint && npm run clean",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "nyc --all ava -v && nyc report --reporter=lcov"
