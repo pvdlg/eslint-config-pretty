@@ -41,6 +41,7 @@
     "nyc": "^11.1.0",
     "rimraf": "^2.6.1",
     "semantic-release": "^8.0.0",
+    "sr-commit-analyzer": "^2.0.2",
     "sr-release-notes-generator": "^1.1.2"
   },
   "homepage": "https://github.com/vanduynslagerp/eslint-config#readme",
@@ -76,6 +77,9 @@
     "access": "public"
   },
   "release": {
+    "analyzeCommits": {
+      "path": "sr-commit-analyzer"
+    },
     "generateNotes": {
       "path": "sr-release-notes-generator"
     }
