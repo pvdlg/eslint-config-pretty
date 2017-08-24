@@ -35,6 +35,7 @@
     "ava": "^0.22.0",
     "codecov": "^2.3.0",
     "commitizen": "^2.9.6",
+    "conventional-changelog-metahub": "^1.0.1",
     "eslint-find-rules": "^3.1.1",
     "husky": "^0.14.3",
     "lodash": "^4.17.4",
@@ -78,10 +79,13 @@
   },
   "release": {
     "analyzeCommits": {
-      "path": "sr-commit-analyzer"
+      "path": "sr-commit-analyzer",
+      "preset": "metahub",
+      "releaseRules": "conventional-changelog-metahub/release-rules"
     },
     "generateNotes": {
-      "path": "sr-release-notes-generator"
+      "path": "sr-release-notes-generator",
+      "preset": "metahub"
     }
   },
   "repository": {
