@@ -41,7 +41,7 @@
     "nyc": "^11.1.0",
     "rimraf": "^2.6.1",
     "semantic-release": "^7.0.2",
-    "sr-release-notes-generator": "^1.0.0"
+    "sr-release-notes-generator": "^1.1.2"
   },
   "homepage": "https://github.com/vanduynslagerp/eslint-config#readme",
   "keywords": [
