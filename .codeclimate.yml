@@ -8,6 +8,6 @@ engines:
         - .json
 ratings:
    paths:
-   - '*-config.js'
+   - '*.js'
    - index.js
    - package.json
