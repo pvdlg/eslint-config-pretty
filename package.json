@@ -98,9 +98,10 @@
     "codecov": "codecov",
     "commitmsg": "commitlint -e",
     "lint": "eslint *-config.js index.js package.json test",
+    "postcheckout": "yarn install || (rimraf && npm install)",
     "precommit": "npm run lint",
     "prepush": "ava -v",
-    "pretest": "npm run lint && npm run clean",
+    "pretest": "npm run clean && npm run lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "nyc --all ava -v && nyc report --reporter=lcov"
   }
