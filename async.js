@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./promise-config.js'],
+  extends: ['./promise.js'],
   rules: {
     // Promise plugin
     'promise/no-nesting': 2,

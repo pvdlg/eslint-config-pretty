@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./es6-config.js'],
+  extends: ['./es6.js'],
   plugins: ['promise'],
   rules: {
     // Promise plugin

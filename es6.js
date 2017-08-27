@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./import-config.js'],
+  extends: ['./import.js'],
   plugins: ['sort-class-members'],
   parserOptions: {ecmaVersion: 8, sourceType: 'module'},
   env: {es6: true},

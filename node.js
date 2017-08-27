@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./import-config.js'],
+  extends: ['./import.js'],
   plugins: ['node'],
   env: {node: true},
   rules: {
