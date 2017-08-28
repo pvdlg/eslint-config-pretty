@@ -1,9 +1,8 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'script',
-    ecmaFeatures: {globalReturn: true, impliedStrict: true, modules: true},
+    ecmaFeatures: {globalReturn: true, impliedStrict: true, modules: true, jsx: true},
   },
   plugins: ['babel', 'json', 'eslint-comments', 'unicorn'],
   env: {node: true},
