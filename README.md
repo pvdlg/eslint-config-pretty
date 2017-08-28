@@ -10,7 +10,6 @@ Modular ESLint [shareable config](http://eslint.org/docs/developer-guide/shareab
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 [![Travis](https://img.shields.io/travis/vanduynslagerp/eslint-config-pretty.svg)](https://travis-ci.org/vanduynslagerp/eslint-config-pretty)
-[![Code Climate](https://img.shields.io/codeclimate/github/vanduynslagerp/eslint-config-pretty.svg)](https://codeclimate.com/github/vanduynslagerp/eslint-config-pretty)
 [![Codecov](https://img.shields.io/codecov/c/github/vanduynslagerp/eslint-config-pretty.svg)](https://codecov.io/gh/vanduynslagerp/eslint-config-pretty)
 
 ## Installation
