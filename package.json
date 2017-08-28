@@ -12,7 +12,6 @@
     }
   },
   "dependencies": {
-    "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-ava": "^4.2.1",
@@ -54,8 +53,8 @@
   "keywords": [
     "eslint",
     "eslintconfig",
-    "prettier",
-    "modular"
+    "modular",
+    "prettier"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -67,7 +66,6 @@
     ]
   },
   "peerDependencies": {
-    "babel-eslint": ">=7.2.3",
     "eslint": ">=4.3.0",
     "eslint-config-prettier": ">=2.3.0",
     "eslint-plugin-ava": ">=4.2.1",
