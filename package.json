@@ -59,11 +59,20 @@
   "license": "MIT",
   "main": "index.js",
   "nyc": {
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
     "include": [
       "*.js",
       "!commitlint.config.js",
       "!*.config.js"
-    ]
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "all": true
   },
   "peerDependencies": {
     "eslint": ">=4.3.0",
@@ -104,6 +113,7 @@
     "cm": "git-cz",
     "codecov": "codecov",
     "commitmsg": "commitlint -e",
+    "coverage": "nyc check-coverage",
     "lint": "npm run clean && eslint . package.json test",
     "postcheckout": "yarn install || (rimraf && npm install)",
     "precommit": "npm run lint",
