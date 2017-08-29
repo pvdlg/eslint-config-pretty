@@ -4,7 +4,7 @@ module.exports = {
   env: {node: true},
   rules: {
     // ESLint - Node.js and CommonJS
-    'callback-return': [2, ['done', 'callback']],
+    'callback-return': [2, ['done', 'callback', 'cb', 'next']],
     'global-require': 2,
     'handle-callback-err': 2,
     'no-buffer-constructor': 2,
