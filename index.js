@@ -173,6 +173,7 @@ module.exports = {
     'func-name-matching': 2,
     'func-names': [2, 'as-needed'],
     'func-style': 0,
+    'function-paren-newline': 2,
     'id-blacklist': 0,
     'id-length': [2, {exceptions: ['i', 'j', 'k', 't', 'x', 'y', 'z', '_', '$']}],
     'id-match': [2, '[a-zA-Z_][a-zA-Z0-9_]*$'],
